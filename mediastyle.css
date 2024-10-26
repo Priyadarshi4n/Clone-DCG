@@ -1,0 +1,102 @@
+@media screen and (max-width:610px) {
+    /* Top Header  */
+    .top-header{
+        display: flex;
+        flex-direction: column;
+        height: 6rem;
+        padding: .5rem;
+    }
+    .call-now, .nda-schooling{
+        font-weight: 600;
+        margin: 0 0 -9px 5px;
+    }
+    .nav-link{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        height: 2rem;
+    }
+
+    /* our-branches  */
+    .branch-location{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .branch-name{
+        margin: 1rem 3rem;
+        padding: 8px 10px;
+        border-radius: .5rem;
+    }
+
+    /* Defence Exams  */
+    .defence-grid{
+           grid-template-columns: repeat(1,1fr);
+    }
+    .defence-exam{
+        width: 100%;
+    }
+    
+    /* .Defence Academy Txt & IMG  */
+    .academy-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .academy-desc{
+        margin: 2rem;
+    }
+    .achiver-img{
+        height: 30%;
+        width: 95%;
+    }
+    .achiver-img2{
+        height: 80%;
+        width: 95%;
+    }
+    .right-container{
+        display: block;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    
+    /* officer-section  */
+    .pic-conatainer{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+    }
+    .officer-pic{
+        margin: 0 auto;
+    }
+
+
+    /* text-container */
+    .text-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    /* Our Facilities  */
+    .facilities-conatainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .items{
+        display: block;
+    }
+
+
+    /* call-now-big  */
+.call-now-big{
+    display: block;
+    font-size: 2rem;
+    margin:  1rem 0;
+}
+
+
+/* Footer  */
+.about-academy{
+    font-size: 10px;
+}
+
+}
+
+
+
